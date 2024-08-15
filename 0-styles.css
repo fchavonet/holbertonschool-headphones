@@ -1,3 +1,19 @@
+/********** FONT IMPORT **********/
+@font-face {
+    font-family: "SourceSansPro Light";
+    src: url(./resources/fonts/sourcesanspro-light.otf);
+}
+
+@font-face {
+    font-family: "SourceSansPro Regular";
+    src: url(./resources/fonts/sourcesanspro-regular.otf);
+}
+
+@font-face {
+    font-family: "SourceSansPro Bold";
+    src: url(./resources/fonts/sourcesanspro-bold.otf);
+}
+
 /********** RESET CSS **********/
 *,
 *::before,
