@@ -48,6 +48,35 @@ body {
     background-color: var(--background-color);
 }
 
+main {
+    max-width: 1400px;
+    margin: -90px auto;
+    z-index: -1;
+}
+
+section {
+    padding: 0 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: "SourceSansPro Regular", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+p {
+    max-width: 640px;
+    font-family: "SourceSansPro Light", sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: center;
+}
+
 a {
     color: var(--light-color);
 }
@@ -55,6 +84,26 @@ a {
 a:hover,
 a:active {
     color: var(--subline-color);
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    font-family: "SourceSansPro Bold", sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--light-color);
+    border: none;
+    border-radius: 25px;
+    background-color: var(--subline-color);
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 101, 101, 0.9);
+    transform: scale(1.05);
 }
 
 @media (max-width: 600px) {
@@ -204,5 +253,43 @@ nav a:hover::after {
     #checkbox:checked+#hamburger_button #bar3 {
         transform: rotate(-45deg);
         transition: all 0.2s ease-in-out;
+    }
+}
+
+/********** BANNER SECTION **********/
+#banner {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 225px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+#banner_container h1 {
+    margin-top: 25px;
+    font-family: "SourceSansPro Bold", sans-serif;
+}
+
+#banner_container p {
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    #banner {
+        height: 870px;
+    }
+
+    #banner_container {
+        gap: 25px;
     }
 }
