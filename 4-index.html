@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=$, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+    <title>Headphones</title>
+    <meta name="description" content="This page is the result of a web creation exercise based on a design by Nicolas Philippot, built with HTML and CSS.">
+    <meta name="author" content="Fabien Chavonet">
+    <meta name="keywords" content="holberton, school, learning, html, css">
+
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./resources/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/images/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./4-styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <input id="checkbox" type="checkbox">
+        <label id="hamburger_button" for="checkbox">
+            <span class="bar" id="bar1"></span>
+            <span class="bar" id="bar2"></span>
+            <span class="bar" id="bar3"></span>
+        </label>
+
+        <img class="logo_headphones" src="./resources/images/logo_headphones.png" alt="Headphones logo">
+
+        <nav>
+            <ul>
+                <li><a href="#what_we_do">what we do</a></li>
+                <li><a href="#our_results">our results</a></li>
+                <li><a href="#contact_us">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- BANNER SECTION -->
+        <section id="banner">
+            <div id="banner_container">
+                <div>
+                    <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                    <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
+                </div>
+
+                <button>
+                    call to action
+                </button>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </section>
+
+        <!-- WHAT WE DO SECTION -->
+        <section id="what_we_do">
+            <div id="what_we_do_container">
+                <h1>What we do…</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+
+            <div id="features_container">
+                <div class="features-horizontal">
+                    <div class="feature">
+                        <img src="./resources/images/what_we_do-sound_frecuency.png" alt="Sound frecuency logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="feature">
+                        <img src="./resources/images/what_we_do-video.png" alt="Video logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="features-horizontal">
+                    <div class="feature">
+                        <img src="./resources/images/what_we_do-music.png" alt="Music logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="feature">
+                        <img src="./resources/images/what_we_do-hearing.png" alt="Hearing logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR RESULTS SECTION -->
+        <section id="our_results">
+            <h1>Our results speak for themselves</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+            </p>
+
+            <div id="dots_container">
+                <div class="dots-horizontal">
+                    <div class="dots">
+                        <span>+2%</span>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+
+                    <div class="dots">
+                        <span>+2%</span>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+
+                <div class="dots-horizontal">
+                    <div class="dots">
+                        <span>+2%</span>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+
+                    <div class="dots">
+                        <span>+2%</span>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT US SECTION -->
+        <section id="contact_us">
+            <h1>Contact us</h1>
+
+            <form>
+                <div class="input-box">
+                    <input type="text" id="name" name="name" maxlength="25" placeholder="" autocomplete="off" required>
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" id="email" name="email" maxlength="50" placeholder="" autocomplete="off" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <textarea id="message" name="message" rows="1" maxlength="250" placeholder="" autocomplete="off" required></textarea>
+                    <label for="message">Your message</label>
+                </div>
+            </form>
+
+            <button>
+                call to action
+            </button>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="footer_container">
+            <a href="#">
+                <img id="headphones_logo" src="./resources/images/logo_headphones.png" alt="Headphones logo">
+            </a>
+
+            <div id="social_media_icon_container">
+                <a href="https://www.facebook.com/HolbertonFRA/" target="_blank">
+                    <img class="social_media_icon" src="./resources/images/social_media_icon-facebook.png" alt="Facebook icon">
+                </a>
+
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2Fholbertonfra" target="_blank">
+                    <img class="social_media_icon" src="./resources/images/social_media_icon-twitter.png" alt="Facebook icon">
+                </a>
+
+                <a href="https://www.instagram.com/holbertonfrance/?hl=en" target="_blank">
+                    <img class="social_media_icon" src="./resources/images/social_media_icon-instagram.png" alt="Facebook icon">
+                </a>
+            </div>
+        </div>
+
+        <p>© Headphones - 2020</p>
+    </footer>
+</body>
+
+</html>
