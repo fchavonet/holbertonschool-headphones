@@ -41,8 +41,8 @@ This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
 ## 📋 <span id="requirements">Requirements</span>
 
-- you are not allowed to import external CSS framework (like Bootstrap).
-- you are not to use Javascript.
+- I am not allowed to import external CSS framework (like Bootstrap).
+- I am not to use Javascript.
 
 ## 📝 <span id="instructions">Instructions</span>
 
