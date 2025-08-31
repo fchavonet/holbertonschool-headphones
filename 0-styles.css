@@ -1,17 +1,17 @@
 /********** FONT IMPORT **********/
 @font-face {
     font-family: "SourceSansPro Light";
-    src: url(./resources/fonts/sourcesanspro-light.otf);
+    src: url(./assets/fonts/sourcesanspro-light.otf);
 }
 
 @font-face {
     font-family: "SourceSansPro Regular";
-    src: url(./resources/fonts/sourcesanspro-regular.otf);
+    src: url(./assets/fonts/sourcesanspro-regular.otf);
 }
 
 @font-face {
     font-family: "SourceSansPro Bold";
-    src: url(./resources/fonts/sourcesanspro-bold.otf);
+    src: url(./assets/fonts/sourcesanspro-bold.otf);
 }
 
 /********** RESET CSS **********/
@@ -40,7 +40,7 @@ body {
     font-family: "SourceSansPro Regular", sans-serif;
     font-size: 1rem;
     color: var(--light-color);
-    background-image: url(./resources/images/headphones_hero_1.jpg);
+    background-image: url(./assets/images/headphones_hero_1.jpg);
     background-size: auto;
     background-position: top;
     background-repeat: no-repeat;

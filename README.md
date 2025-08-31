@@ -1,50 +1,58 @@
-<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/resources/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
-# Implement a design from scratch
+# Implement A Design From Scratch
+
+## Table of contents
 
 <details>
-        <summary>
+    <summary>
         CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        📋 <a href="#requirements">Requirements</a>
-        <br>
-        📝 <a href="#instructions">Instructions</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    </summary>
+    <a href="#description">Description</a>
+    <br>
+    <a href="#objectives">Objectives</a>
+    <br>
+    <a href="#requirements">Requirements</a>
+    <br>
+    <a href="#instructions">Instructions</a>
+    <br>
+    <a href="#tech-stack">Tech stack</a>
+    <br>
+    <a href="#files-description">Files description</a>
+    <br>
+    <a href="#thanks">Thanks</a>
+    <br>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
-In this project, I am tasked with building a web page entirely from scratch, without relying on any external libraries. This challenge requires me to apply all the HTML, CSS, Accessibility, and Responsive Design knowledge that I have acquired so far. The project gives me creative freedom, with minimal instructions, allowing me to design and implement the page according to my own approach.
+In this project, I am tasked with building a web page entirely from scratch, without relying on any external libraries. This challenge requires me to apply all the HTML, CSS, accessibility, and responsive design knowledge that I have acquired so far. The project gives me creative freedom, with minimal instructions, allowing me to design and implement the page according to my own approach.
 
 If you want to directly see the final result of all the project tasks, you can click [here](https://fchavonet.github.io/holbertonschool-headphones/101-index.html).
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-The primary objective of this project is straightforward: to develop a fully functional web page that faithfully replicates the appearance of the provided designer file. The goal is to ensure that the final product not only meets the visual specifications but also adheres to best practices in web development, ensuring accessibility and responsiveness across different devices and screen sizes.
+- Develop a fully functional web page that replicates the appearance of the provided designer file.
+- Ensure the final product meets the visual specifications.
+- Adhere to best practices in web development.
+- Guarantee accessibility compliance.
+- Implement responsive design across different devices and screen sizes.
 
-Here the final result:
+Here is the final result to be achieved:
 
-<img src="./resources/images/mockup.png" alt="Mockup">
+<img src="./assets/images/mockup.png" alt="Mockup">
 
 This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - I am not allowed to import external CSS framework (like Bootstrap).
-- I am not to use Javascript.
+- I am not allowed to use JavaScript.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -56,7 +64,7 @@ Create an account in Figma and open the project and “Duplicate to your Drafts�
 
 If you can’t access to it, please find here the Figma [file](https://intranet.hbtn.io/rltoken/tWEPFyHyXyNO9Xfi2Er2EA).
 
-<img src="./resources/images/figma.png" alt="Figma">
+<img src="./assets/images/figma.png" alt="Figma">
 
 Important notes with Figma:
 
@@ -103,11 +111,11 @@ Here an archive of all assets needed: [images_.zip](https://s3.eu-west-3.amazona
 
 **Desktop:**
 
-<img src="./resources/images/task0-desktop.gif" alt="Desktop version of Header screenshot">
+<img src="./assets/images/task0-desktop.gif" alt="Desktop version of Header screenshot">
 
 **Mobile:**
 
-<img src="./resources/images/task0-mobile.gif" alt="Mobile version of Header screenshot">
+<img src="./assets/images/task0-mobile.gif" alt="Mobile version of Header screenshot">
 
 #
 **Repo:**
@@ -189,11 +197,11 @@ When you are done, here the result:
 
 **Desktop:**
 
-<img src="./resources/images/task5-desktop.gif" alt="Desktop version of Footer screenshot">
+<img src="./assets/images/task5-desktop.gif" alt="Desktop version of Footer screenshot">
 
 **Mobile**
 
-<img src="./resources/images/task5-mobile.gif" alt="Desktop version of Footer screenshot">
+<img src="./assets/images/task5-mobile.gif" alt="Desktop version of Footer screenshot">
 
 And you are done!
 
@@ -257,19 +265,22 @@ $ sass 102-styles.scss > 102-styles.css
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5 badge">
     <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3 badge">
     <img src="https://img.shields.io/badge/SASS-cc6699?logo=sass&logoColor=white&style=for-the-badge" alt="SASS badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+        <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
 </p>
 
-## 📂 <span id="files-description">File description</span>
+## <span id="files-description">Files description</span>
 
-| **FILE**          | **DESCRIPTION**                                                           |
+| **FILES**         | **DESCRIPTION**                                                           |
 | :---------------: | ------------------------------------------------------------------------- |
-| `resources`       | Contains the fonts and images required for the page.                      | 
+| `assets`          | Contains the fonts and images required for the page.                      | 
 | `0-index.html`    | Index page for the task `1. Header`.                                      |
 | `0-styles.css`    | CSS style sheet for the task `1. Header`.                                 |
 | `1-index.html`    | Index page for the task `2. "What we do..." section`.                     |
@@ -286,13 +297,13 @@ $ sass 102-styles.scss > 102-styles.css
 | `101-styles.css`  | CSS style sheet for the task `7. Let's animate items`.                    |
 | `102-index.html`  | Index page for the task `8. And SASS??`.                                  |
 | `102-styles.scss` | SASS file for the task `8. And SASS??`.                                   |
-| `README.md`       | The readme file you are currently reading 😉.                             |
+| `README.md`       | The README file you are currently reading 😉.                            |
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)
